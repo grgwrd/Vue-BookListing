@@ -16,3 +16,5 @@ karma-result.json
 *.ntvs*
 *.njsproj
 *.sln
+
+package-lock.json
