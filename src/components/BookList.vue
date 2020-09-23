@@ -4,7 +4,7 @@
     <ul>
 
       <book-item v-for="book in books" :book="book">
-        {{book.title}}:{{book.author}}
+      <!-- Display book items and insert book as props -->
       </book-item>
     </ul>
   </div>
@@ -23,10 +23,10 @@
           { title: 'American Gods', author: 'Neil Gaiman'},
           { title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
         ],
-        components: {
-          BookItem
-        }
       }
+    },
+    components: {
+      BookItem
     }
 
   };
