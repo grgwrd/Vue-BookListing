@@ -6,12 +6,16 @@
       <book-item v-for="book in books" :book="book">
       <!-- Display book items and insert book as props -->
       </book-item>
+      <book-form>
+        
+      </book-form>
     </ul>
   </div>
 </template>
 <script>
 
   import BookItem from './BookItem';
+  import BookForm from './BookForm';
 
   export default {
     name: 'BookList',
@@ -26,7 +30,8 @@
       }
     },
     components: {
-      BookItem
+      BookItem,
+      BookForm
     }
 
   };
