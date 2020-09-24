@@ -26,7 +26,7 @@
           { title: 'American Gods', author: 'Neil Gaiman' },
           { title: 'Amusing Ourselves to Death', author: 'Neil Postman' },
         ],
-      }
+      };
     },
     components: {
       BookItem,
@@ -36,7 +36,7 @@
       appendBook(bookTitle, bookAuthor) {
         this.books.push({ title: bookTitle, author: bookAuthor });
       },
-    }
+    },
 
   // end export default
   };
